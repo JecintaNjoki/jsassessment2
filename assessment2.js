@@ -49,32 +49,33 @@ getAvailableBooks(books)
 // 2. Create a function getBooksByAuthor that takes an author's name as an argument and
 // returns an array of all books by that author.
 // function getBooksByAuthor(authorsname){
-//     let book=authorsname
-//     books.title="The catcher in the rye"
-//     books.author="J.D.Salinger"
-//     console.log(author);
+     let book=authorsname
+     books.title="The catcher in the rye"
+     books.author="J.D.Salinger"
+     
+     console.log(author);
 
-//     books.title="Great Expectations"
-//     books.author="Charles Dickens"
-//     console.log(author); 
+    books.title="Great Expectations"
+    books.author="Charles Dickens"
+    console.log(author); 
 
        
-//     books.title="Crime and Punishment"
-//     books.author="Fyodor Dostoevsky"
-//     console.log(author);
+    books.title="Crime and Punishment"
+    books.author="Fyodor Dostoevsky"
+    console.log(author);
 
 
-//     books.title="The Great Gatsby"
-//     books.author="F. Scott Fitzgerald"
-//     console.log(author);
+    books.title="The Great Gatsby"
+    books.author="F. Scott Fitzgerald"
+    console.log(author);
     
 
-//     books.title="F. Scott Fitzgerald"
-//     books.author="F. Scott Fitzgerald"
-//     console.log(author);
+    books.title="F. Scott Fitzgerald"
+    books.author="F. Scott Fitzgerald"
+    console.log(author);
     
-// }
-// getBooksByAuthor(authorsname)
+}
+getBooksByAuthor(authorsname)
 // // 3. Create a function addNewBook that takes a book object as an argument and adds it
 // to the library, ensuring that the new book has all required properties (title, author,
 // publicationYear, and isAvailable).
